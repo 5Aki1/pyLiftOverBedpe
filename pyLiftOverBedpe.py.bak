@@ -37,7 +37,7 @@ def lift_bedpe(input_bedpe, output_bedpe, chainfile):
                 outfile.write(
                     f"{lifted_chrom1}\t{lifted_start1_pos}\t{lifted_end1_pos}\t"
                     f"{lifted_chrom2}\t{lifted_start2_pos}\t{lifted_end2_pos}\t"
-                    + '\t'.join(extra_fields) + "\n"
+                    + '\t'.join(extra_fields) + "\n""
                 )
             else:
                 print(f"Skipping unmapped region: {line.strip()}")
