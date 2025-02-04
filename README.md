@@ -2,7 +2,7 @@
 
 A simple python3 wrapper for the liftOver tool that allows users to liftOver BEDPE files from one genome build to another.
 
-
+## Prerequisites
 
 Requires the pyliftover package and a liftOver chain file.
 
